@@ -1,0 +1,1 @@
+export const MAGENTO_TITLE_PAGE = 'Title'

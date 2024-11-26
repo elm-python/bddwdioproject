@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "ES6",
+    "lib": ["ES6", "dom"],
+    "types": ["node", "cucumber-framework", "globals/types"],
+    "baseUrl": "./",
+    "typeRoots": ["./node_modules/@types", "./node_modules/@wdio"],
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["types/*","e2e-tests/**/*.ts"],
+  "exclude": ["node_modules"]
+}
